@@ -653,17 +653,17 @@ function EndScreen({ results, onSend }) {
             </table>
 
 
-            <div className="overall_result">
+            {/* <div className="overall_result">
 
                 <p>
                     総合迷い度：
                     <span>{overallHesitationLevel}</span>
                 </p>
 
-            </div>
+            </div> */}
 
 
-            <button
+            <button className="next_button"
                 onClick={() => {
 
                     setSurveyQuestion(0);
